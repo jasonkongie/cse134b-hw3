@@ -4,9 +4,8 @@
   <meta charset="UTF-8">
   <meta name="description" content="Labs - Brandon's Research Hub Experiments">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="Brandon's Research Hub Labs">
-  <link rel="stylesheet" href="styles.css">
   <title>Labs - Brandon's Research Hub</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
     body { margin: 0; border: 1px solid black; }
     canvas { border: 1px solid black; }
@@ -45,18 +44,23 @@
   <main>
     <section>
       <h2>Canvas and SVG Experiment</h2>
+      <figure>
+        <img src="images/lab-equipment.jpg" alt="Lab equipment" loading="lazy">
+        <figcaption>Lab setup in progress</figcaption>
+      </figure>
       <canvas id="myCanvas" width="200" height="100"></canvas>
       <svg width="100" height="100">
         <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red"></circle>
       </svg>
-      <iframe src="https://www.example.com" width="200" height="100" title="Example Iframe"></iframe>
     </section>
     <section>
       <h2>Media and Interactive Elements</h2>
-      <picture>
-        <source srcset="brandon.webp" type="image/webp">
-        <img src="brandon.jpg" alt="Brandon">
-      </picture>
+      <figure>
+        <picture>
+          <source srcset="images/brandon.webp" type="image/webp">
+          <img src="brandon.jpg" alt="Brandon" loading="lazy">
+        </picture>
+      </figure>
       <audio controls>
         <source src="audio/sample.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -112,7 +116,7 @@
         </thead>
         <tbody>
           <tr>
-            <td>Alph a</td>
+            <td>Alpha</td>
             <td>10</td>
           </tr>
           <tr>
